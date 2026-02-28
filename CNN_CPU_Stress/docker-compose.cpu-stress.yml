@@ -1,0 +1,8 @@
+version: "2.4"
+
+services:
+  cpu_stress_app:
+    build: .
+    container_name: cpu_stress_app
+    cpus: 0.5
+    mem_limit: 768m
